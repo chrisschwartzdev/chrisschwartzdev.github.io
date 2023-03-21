@@ -1,0 +1,28 @@
+@import "./_variables";
+@import "./_generic";
+
+$bodyShadowWidth: 20px;
+
+hr {
+  margin: 0.5rem -0.25rem;
+  border: none;
+  border-bottom: 1px solid hsl($primary-hue, 16%, 45%);
+}
+
+h3 {
+  height: 2rem;
+}
+
+button[data-type="close"] {
+  float: right;
+  margin: 0;
+  background: none;
+  border: none;
+  font-size: large;
+  padding: 0.25rem;
+  color: white;
+}
+
+.float-right {
+  float: right;
+}

@@ -1,0 +1,25 @@
+@import "../styles/main.scss";
+
+.footer {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  font-size: 1.2em;
+  font-family: Roboto;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  span {
+    position: relative;
+    top: 8px;
+  }
+  &a:hover,
+  &a:focus {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+  @media screen and (max-width: 1382px) {
+    display: none;
+  }
+}

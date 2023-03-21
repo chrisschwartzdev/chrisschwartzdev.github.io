@@ -1,0 +1,164 @@
+@import "./_variables";
+@import "./_generic";
+@import "./_layout";
+
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/fonts/Roboto-Regular.ttf");
+}
+
+.container {
+  background: url("/assets/background.png");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.body {
+  a {
+    color: $linkColor;
+    &:visited {
+      color: $linkColor;
+    }
+    &:hover,
+    &.focus {
+      color: $linkHoverColor;
+    }
+  }
+  @mixin icon-button {
+    background: none;
+    border: none;
+    color: $linkColor;
+    &:hover {
+      color: $linkHoverColor;
+    }
+  }
+  .icon-button {
+    @include icon-button();
+  }
+}
+
+.body-content {
+  margin: 0 auto;
+  max-width: 60vw;
+  left: -10px;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1382px) {
+  p {
+    font-size: 1.2em;
+  }
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  h3 {
+    font-size: 1.4em;
+  }
+  .body-content {
+    max-width: 90vw;
+  }
+}
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: Roboto;
+  margin: 0;
+}
+
+button {
+  font-family: Roboto;
+}
+
+table {
+  border-spacing: 0;
+}
+
+select,
+textarea {
+  width: 100%;
+  font-family: Roboto;
+  font-size: 14px;
+  resize: none;
+}
+
+ul {
+  list-style: square;
+}
+
+h1 {
+  font-size: 1.5vmax;
+}
+
+h2 {
+  font-size: 1.1vmax;
+}
+
+h3 {
+  font-size: 0.85vmax;
+}
+
+p {
+  font-size: 0.7vmax;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: $mainColorDull;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+details summary {
+  font-size: 0.9vmax;
+  padding: 1rem;
+  color: $mainColorDull;
+  &:hover {
+    cursor: pointer;
+    text-shadow: 0 0 10px hsla($primary-hue, 100%, 50%, 0.25);
+  }
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.3s ease-in-out;
+}
+
+li {
+  list-style: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

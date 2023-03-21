@@ -1,0 +1,23 @@
+$primary-hue: 265;
+$primary: hsl($primary-hue, 30%, 50%);
+
+$mainColor: $primary;
+$mainColorDull: lighten(saturate($primary, 50%), 35%);
+$navBgColor: darken($mainColor, 35%);
+$bodyBgColor: darken($mainColor, 48%);
+
+$linkColor: lighten($mainColor, 0%);
+$linkHoverColor: lighten($mainColor, 15%);
+
+$positive: #1eae35;
+$warning: #f0820f;
+$negative: #e71b18;
+
+$positive-panel: desaturate(darken($positive, 20), 32);
+$warning-panel: desaturate(darken($warning, 20), 32);
+$negative-panel: desaturate(darken($negative, 20), 32);
+
+$plus: "\f067";
+$minus: "\f068";
+$plus-circle: "\f055";
+$minus-circle: "\f056";
