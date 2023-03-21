@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Portfolio Website (this website)",
+    "description": "I wrote this website from a template I've made for simple React websites. It shares a similar layout to my websites for Kraedt and Avalice.",
+    "url": "https://github.com/BassaForte/bassaforte-react.github.io"
+  },
+  {
+    "title": "Smart NAI",
+    "description": "A WIP FireFox extension (using React) specifically for NovelAI's image generation tool that makes managing prompts and tags a lot easier.",
+    "url": "https://github.com/BassaForte/smart-nai"
+  },
+  {
+    "title": "DAWProjectManager",
+    "description": "An Electron app to make managing music production projects easier. It will search the filesystem for project files and store metadata next to it, and in the app you can tag and search for projects by tag or keyword.",
+    "url": "https://cschwartz110.visualstudio.com/_git/DAWProjectManager"
+  },
+  {
+    "title": "BudgetWeb Redux",
+    "description": "An attempt at making a web-based budgetting app, modeled after EveryDollar, but with plans to add more functionality. This was also a workspace to learn more about React.",
+    "url": "https://cschwartz110.visualstudio.com/BudgetWebRedux/"
+  },
+  {
+    "title": "Accidental Cube Website",
+    "description": "A rudimentary React website for my game development company \"Accidental Cube\" featuring my solo mobile game project \"Avalice\". The website can be viewed at https://accidentalcube.com/",
+    "url": "https://github.com/Kraedt/accidentalcube.github.io"
+  },
+  {
+    "title": "Kraedt React Website",
+    "description": "A React website for my music artist project \"Kraedt\". Data is fetched using a Google Cloud Function. The website can be viewed at https://kraedt.com/",
+    "url": "https://github.com/Kraedt/kraedt-react.github.io"
+  },
+  {
+    "title": "MapleSource",
+    "description": "A WIP MapleStory private server source based heavily on HeavenMS's source. It is functional to a degree (you can actually log into the game and traverse the maps).",
+    "url": "https://cschwartz110.visualstudio.com/MapleSource"
+  },
+  {
+    "title": "MSDrops",
+    "description": "A WIP website (using ASP.Net MVC / Razor) that references a database of monster drops in the game MapleStory to display drop chances for items.",
+    "url": "https://cschwartz110.visualstudio.com/MSDrops"
+  },
+  {
+    "title": "Tonality",
+    "description": "A ASP.Net MVC / Razor website I made as a group project in college, acting as a web store for music production plugins. You can filter store items by tags, review items, add items to your cart, manage your own profile, and send messages to other users.",
+    "url": "https://cschwartz110.visualstudio.com/Tonality/"
+  },
+  {
+    "title": "HushNow MicMute",
+    "description": "A very simple microphone mute app that is very WIP.",
+    "url": "https://github.com/BassaForte/HushNow-MicMute"
+  }
+]
