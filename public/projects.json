@@ -12,7 +12,7 @@
   {
     "title": "DAWProjectManager",
     "description": "An Electron app to make managing music production projects easier. It will search the filesystem for project files and store metadata next to it, and in the app you can tag and search for projects by tag or keyword.",
-    "url": "https://cschwartz110.visualstudio.com/_git/DAWProjectManager"
+    "url": "https://cschwartz110.visualstudio.com/DAWProjectManager"
   },
   {
     "title": "BudgetWeb Redux",
