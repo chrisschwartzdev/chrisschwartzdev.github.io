@@ -1,6 +1,8 @@
 import styles from './Header.module.scss';
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
+import inIcon from '../assets/images/in.png';
+import githubIcon from '../assets/images/github.png';
 
 export const Header = () => {
   const url = useLocation().pathname;
@@ -12,10 +14,21 @@ export const Header = () => {
     <li className={styles.text}><Link to={url} className={className}>{text}</Link></li>
   )
 
+  const ListLinkIcon = ({ url, img, title, alt }: { url: string, img: string, title: string, alt: string }) => (
+    <li className={styles.sm}>
+      <a href={url} title={title} target="_blank" rel="noreferrer">
+        <img src={img} alt={alt} />
+      </a>
+    </li>
+  )
+
   const links = <>
     <ListLink url="/" className={showActive('/')} text="HOME" />
     <ListLink url="/projects" className={showActive('/projects')} text="PROJECTS" />
     <ListLink url="/contact" className={showActive('/contact')} text="CONTACT" />
+    <li className={styles.br} />
+    <ListLinkIcon url="https://www.linkedin.com/in/chris-schwartz-dev/" img={inIcon} title="LinkedIn" alt="linkedin" />
+    <ListLinkIcon url="https://github.com/bassaforte/" img={githubIcon} title="GitHub" alt="github" />
   </>
 
   return (
