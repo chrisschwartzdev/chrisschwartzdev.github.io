@@ -47,21 +47,59 @@
   margin-bottom: 60px;
 }
 
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+h1,
+h2 {
+  color: $mainColorDull;
+}
+
+details summary {
+  font-size: 0.9rem;
+  padding: 1rem;
+  color: $mainColorDull;
+  &:hover {
+    cursor: pointer;
+    text-shadow: 0 0 10px hsla($primary-hue, 100%, 50%, 0.25);
+  }
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 1382px) {
   p {
-    font-size: 1.2em;
+    font-size: 0.9rem;
   }
   h1 {
-    font-size: 1.8em;
+    font-size: 1.8rem;
   }
   h2 {
-    font-size: 1.6em;
+    font-size: 1.3rem;
   }
   h3 {
-    font-size: 1.4em;
+    font-size: 0.9rem;
   }
   .body-content {
     max-width: 90vw;
+  }
+  details summary {
+    font-size: 0.9rem;
   }
 }
 
@@ -97,22 +135,6 @@ ul {
   list-style: square;
 }
 
-h1 {
-  font-size: 1.5vmax;
-}
-
-h2 {
-  font-size: 1.1vmax;
-}
-
-h3 {
-  font-size: 0.85vmax;
-}
-
-p {
-  font-size: 0.7vmax;
-}
-
 a {
   text-decoration: none;
 }
@@ -120,11 +142,6 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-}
-
-h1,
-h2 {
-  color: $mainColorDull;
 }
 
 .text-center {
@@ -140,20 +157,6 @@ h2 {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-details summary {
-  font-size: 0.9vmax;
-  padding: 1rem;
-  color: $mainColorDull;
-  &:hover {
-    cursor: pointer;
-    text-shadow: 0 0 10px hsla($primary-hue, 100%, 50%, 0.25);
-  }
-}
-
-details[open] summary ~ * {
-  animation: sweep 0.3s ease-in-out;
 }
 
 li {
