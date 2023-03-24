@@ -40,11 +40,6 @@
     "url": "https://cschwartz110.visualstudio.com/_git/MSDrops"
   },
   {
-    "title": "Tonality: ASP.Net MVC",
-    "description": "A ASP.Net MVC / Razor website I made as a group project in college, acting as a web store for music production plugins. You can filter store items by tags, review items, add items to your cart, manage your own profile, and send messages to other users.",
-    "url": "https://cschwartz110.visualstudio.com/_git/Tonality/"
-  },
-  {
     "title": "HushNow MicMute: WPF",
     "description": "A very simple WPF microphone mute app that is very WIP.",
     "url": "https://github.com/BassaForte/HushNow-MicMute"
