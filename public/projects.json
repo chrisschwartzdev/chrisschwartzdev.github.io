@@ -1,5 +1,10 @@
 [
   {
+    "title": "Car Parts Store: React, Zustand, ASPNetCore",
+    "description": "A concept React website for an imaginary car parts store, using Zustand for state management and ASPNetCore for REST api.",
+    "url": "https://github.com/BassaForte/car-parts-store"
+  },
+  {
     "title": "Portfolio Website (this website): React",
     "description": "I set up this website from a template I've made for simple React GHPages websites. It shares a similar layout to my other websites for Kraedt and Avalice.",
     "url": "https://github.com/BassaForte/bassaforte-react.github.io"
