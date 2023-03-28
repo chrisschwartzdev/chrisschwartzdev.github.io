@@ -28,7 +28,7 @@ export const Header = () => {
     <ListLink url="/contact" className={showActive('/contact')} text="CONTACT" />
     <li className={styles.br} />
     <ListLinkIcon url="https://www.linkedin.com/in/chris-schwartz-dev/" img={inIcon} title="LinkedIn" alt="linkedin" />
-    <ListLinkIcon url="https://github.com/bassaforte/" img={githubIcon} title="GitHub" alt="github" />
+    <ListLinkIcon url="https://github.com/chrisschwartzdev/" img={githubIcon} title="GitHub" alt="github" />
   </>
 
   return (
