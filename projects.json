@@ -2,17 +2,17 @@
   {
     "title": "Car Parts Store: React, Zustand, ASPNetCore",
     "description": "A concept React website for an imaginary car parts store, using Zustand for state management and ASPNetCore for REST api.",
-    "url": "https://github.com/BassaForte/car-parts-store"
+    "url": "https://github.com/chrisschwartzdev/car-parts-store"
   },
   {
     "title": "Portfolio Website (this website): React",
     "description": "I set up this website from a template I've made for simple React GHPages websites. It shares a similar layout to my other websites for Kraedt and Avalice.",
-    "url": "https://github.com/BassaForte/bassaforte-react.github.io"
+    "url": "https://github.com/chrisschwartzdev/chrisschwartz.github.io"
   },
   {
     "title": "Smart NAI: React, WebExtensions",
     "description": "A WIP FireFox extension (using React) specifically for NovelAI's image generation tool that makes managing prompts and tags a lot easier.",
-    "url": "https://github.com/BassaForte/smart-nai"
+    "url": "https://github.com/chrisschwartzdev/smart-nai"
   },
   {
     "title": "DAWProjectManager: Electron, React",
@@ -47,6 +47,6 @@
   {
     "title": "HushNow MicMute: WPF",
     "description": "A very simple WPF microphone mute app that is very WIP.",
-    "url": "https://github.com/BassaForte/HushNow-MicMute"
+    "url": "https://github.com/chrisschwartzdev/HushNow-MicMute"
   }
 ]
