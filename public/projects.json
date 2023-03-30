@@ -1,7 +1,7 @@
 [
   {
-    "title": "Car Parts Store: React, Zustand, ASPNetCore",
-    "description": "A concept React website for an imaginary car parts store, using Zustand for state management and ASPNetCore for REST api.",
+    "title": "Car Parts Store: React, Zustand, ASPNetCore, EFCore, Autofac",
+    "description": "A concept React website for an imaginary car parts store, using Zustand for state management, ASPNetCore for REST api, EFCore for data persistence, and Autofac for inversion of control.",
     "url": "https://github.com/chrisschwartzdev/car-parts-store"
   },
   {
